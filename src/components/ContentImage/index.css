@@ -1,0 +1,21 @@
+.list-image {
+  border-color: transparent;
+  background-color: transparent;
+  outline: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.each-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .each-image {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+  }
+}
